@@ -4,6 +4,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 
+import levy.daniel.application.model.persistence.metier.product.entities.jpa.Product;
+
 /**
  * CLASSE SpringDataRestCustomization :<br/>
  * Configure Spring-Data-Rest pour qu'il 
@@ -48,7 +50,7 @@ public class SpringDataRestCustomization implements RepositoryRestConfigurer {
 			final RepositoryRestConfiguration pConfig) {
 		
 		/* expose les Id pour les Product lors de la sérialization Jackson. */
-//		pConfig.exposeIdsFor(Product.class);
+		pConfig.exposeIdsFor(Product.class);
 		
 		
 		/* permet un retour dans le corps de la réponse HTTP 
