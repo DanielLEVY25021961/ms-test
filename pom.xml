@@ -205,7 +205,7 @@
 			<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
 		</dependency>
 		
-		<!-- PROFILER ACTUATOR -->
+		<!-- PROFILER MONITORING ACTUATOR -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
