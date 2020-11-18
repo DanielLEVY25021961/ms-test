@@ -3,9 +3,25 @@ package levy.daniel.application;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
 /**
- * @author daniel.levy
+ * CLASSE MsTestApplicationTests :<br/>
+ * .<br/>
+ * <br/>
  *
+ * - Exemple d'utilisation :<br/>
+ *<br/>
+ * 
+ * - Mots-clé :<br/>
+ * <br/>
+ *
+ * - Dépendances :<br/>
+ * <br/>
+ *
+ *
+ * @author Daniel Lévy
+ * @version 1.0
+ * @since 7 nov. 2020
  */
 @SpringBootTest
 public class MsTestApplicationTests {
@@ -20,8 +36,7 @@ public class MsTestApplicationTests {
 	} // Fin du CONSTRUCTEUR D'ARITE NULLE.________________________________
 
 	
-	
-	
+		
 	/**
 	 * 
 	 */
@@ -32,4 +47,4 @@ public class MsTestApplicationTests {
 	
 	
 
-}
+} // FIN DE LA CLASSE MsTestApplicationTests.--------------------------------
